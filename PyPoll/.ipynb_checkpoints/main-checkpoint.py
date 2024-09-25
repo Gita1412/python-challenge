@@ -1,4 +1,3 @@
-#import modules
 import os
 import csv
 
@@ -12,7 +11,7 @@ with open(csvpath) as csvfile:
     print(f"Header: {csv_header}")
 
 
-    # Initialize variables to track the election data
+    # Initialize variables
     total_votes = 0
     candidates = {}
     winner = ""
